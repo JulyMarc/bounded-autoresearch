@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bounded-autoresearch"
+version = "0.2.0"
+description = "A provider-neutral scaffold for bounded, resumable empirical research"
+requires-python = ">=3.10"
+license = {text = "Apache-2.0"}
+authors = [{name = "JulyMarc"}]
+dependencies = []
+
+[project.scripts]
+bounded-autoresearch = "bounded_autoresearch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

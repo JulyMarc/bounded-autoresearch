@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "run_id": "generated-uuid",
+  "slug": "example-run",
+  "status": "initialized",
+  "objective": "Reduce synthetic validation error",
+  "metric": {"name": "validation_error", "direction": "minimize"},
+  "budget": {"max_experiments": 6, "wall_clock_minutes": 120, "compute_cap": "No paid compute"},
+  "experiments_attempted": 0,
+  "no_improvement_epochs": 0,
+  "champion": null,
+  "next_action": "Research prior solutions and freeze the first experiment plan.",
+  "pending_approvals": [],
+  "created_at": "generated timestamp",
+  "updated_at": "generated timestamp",
+  "last_event_seq": 1
+}
